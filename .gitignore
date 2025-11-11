@@ -1,0 +1,9 @@
+# Node modules (if using node tools)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# zips
+*.zip

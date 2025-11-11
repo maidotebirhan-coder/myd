@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Education — Maidote Birhan</title>
+  <style>
+    body{
+      margin:0;
+      background:linear-gradient(to right, #ffd23f 25%, #1a1f2e 25%);
+      color:#fff;
+      font-family:Arial,sans-serif;
+      min-height:100vh;
+    }
+    .header{
+      background:#1a1f2e;
+      border-bottom:3px solid #ff6b35;
+      padding:1rem;
+      margin-left:25%;
+      width:75%;
+    }
+    .back{
+      color:#ff6b35;
+      text-decoration:none;
+      font-size:2rem;
+      font-weight:bold;
+      float:left;
+      margin-right:1rem;
+    }
+    .header h1{
+      color:#ff6b35;
+      margin:0;
+      display:inline-block;
+    }
+    .container{
+      margin-left:25%;
+      width:75%;
+      padding:2rem;
+      background:#1a1f2e;
+    }
+    .school{
+      background:#fff;
+      color:#333;
+      padding:1.5rem;
+      margin:1.5rem 0;
+      border-radius:15px;
+      border:2px solid #ff6b35;
+    }
+    .school h3{color:#ff6b35;margin-top:0;font-size:1.3rem}
+    .school strong{color:#ff6b35}
+    .school p{margin:.5rem 0;line-height:1.6}
+    footer{
+      background:#1a1f2e;
+      border-top:3px solid #ff6b35;
+      padding:1rem;
+      margin-left:-25%;
+      color:#b8c5d6;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="javascript:history.back()" class="back">←</a>
+    <h1>Education</h1>
+  </div>
+  
+  <div class="container">
+    <h2 style="color:#ffd23f;font-weight:700">Academic History</h2>
+    
+    <div class="school">
+      <h3>🎓 Wolaita Sodo University</h3>
+      <p><strong>Address:</strong> South Ethiopia Region</p>
+      <p><strong>Degree:</strong> Computer Science (2022–Now)</p>
+      <p><strong>Focus:</strong> AI, Graphics Design, and Cyber Issues</p>
+    </div>
+    
+    <div class="school">
+      <h3>🏫 Milinum Progress Academy</h3>
+      <p><strong>Address:</strong> Amhara Region, Bahir Dar City</p>
+      <p><strong>Grade:</strong> Grade 12</p>
+      <p><strong>Achievement:</strong> Finished high school and graduated with diploma</p>
+    </div>
+    
+    <div class="school">
+      <h3>🏫 Mekane Eyesus School</h3>
+      <p><strong>Address:</strong> Amhara Region, Gonder</p>
+      <p><strong>Education:</strong> Grade 11</p>
+    </div>
+    
+    <div class="school">
+      <h3>🏫 Catholic School</h3>
+      <p><strong>Address:</strong> Oromia Region, Shashemene City</p>
+      <p><strong>Education:</strong> Nursery up to Grade 10</p>
+    </div>
+  </div>
+  
+  <footer>
+    <p>© <span id="year"></span> maidote birhan</p>
+  </footer>
+  
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
